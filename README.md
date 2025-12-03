@@ -825,14 +825,30 @@ npm run preview
 
 ### Deployment Options
 
-#### Netlify
+#### Netlify (Recommended ⭐)
 
-1. Connect GitHub repository
-2. Build command: `npm run build`
-3. Publish directory: `dist`
-4. Environment variables: None required
+**Why Netlify?**
+- ✅ Zero configuration needed (uses `netlify.toml`)
+- ✅ Free SSL, CDN, and unlimited deploys
+- ✅ Automatic SPA routing support
+- ✅ Instant deployments on git push
+- ✅ Perfect for assessments and portfolios
 
-**Deploy URL**: `https://your-app.netlify.app`
+**Quick Deployment Steps:**
+
+1. **Push code to GitHub** (already done ✅)
+2. **Go to [Netlify](https://netlify.com)** and sign in with GitHub
+3. **Click "Add new site" → "Import an existing project"**
+4. **Select your repository**: `tdcx-task-dashboard`
+5. **Netlify auto-detects settings** (thanks to `netlify.toml`):
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+6. **Click "Deploy site"**
+7. **Wait ~2 minutes** → Your app is live! 🎉
+
+**Your live URL will be**: `https://tdcx-task-dashboard.netlify.app` (or similar)
+
+**Note**: The `netlify.toml` file is already configured for SPA routing, so React Router will work perfectly!
 
 #### Vercel
 
