@@ -431,20 +431,24 @@ npm run preview
 
 #### Mobile Login
 ![Mobile Login](screens/Mobile-Login%20Page.png)
+
 *Responsive login form optimized for mobile screens*
 
 #### Mobile Task List
 ![Mobile Task List](screens/Mobile-List%20of%20Tasks.png)
+
 *Mobile-optimized dashboard layout*
 
 #### Mobile Task Creation
 ![Mobile Create Tasks](screens/Mobilr-%20Create%20Tasks.png)
+
 *Touch-friendly task creation modal*
 
 > Note: Filename contains a typo ("Mobilr" instead of "Mobile") but image displays correctly.
 
 #### Mobile Task Completion
 ![Mobile Check Tasks](screens/Mobile-Check%20Tasks.png)
+
 *Mobile task completion interface*
 
 ---
